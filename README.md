@@ -1,5 +1,5 @@
 # hello
- Treinando um pouco de HTML5, CSS3 e Javascript
+ Treinando um pouco de HTML5, CSS3 e Javascript <br>
  Criei meu primeiro repositório e agora irei gerencia-lo!
 
  <a href="https://conradogui.github.io/estudando-js/treinandopt1/index.html">IMC calculator</a> <br>
