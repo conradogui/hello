@@ -3,31 +3,46 @@ body {
 }
 .container {
     border: 3px dashed black;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     margin-top: 200px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.233);
+    box-shadow: 2px 5px 14px rgba(0, 0, 0, 0.651);
 }
 .formulario {
     display: grid;
+    max-width: 300px;
+    
 }
 .validar {
     margin-bottom: 10px;
 }
 input {
-    width: 300px;
+    max-width: 300px;
+    min-width: 0;
     margin-left: 20px;
+    margin-right: 20px;
     height: 25px;
-    font-size: 1.5em;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
 }
 label {
     margin-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    max-width: 20px;
 }
 h1 {
     margin-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: rgb(168, 161, 145);
+    text-shadow: 5px 3px 7px rgba(0, 0, 0, 0.61);
 }
 button {
     height: 30px;
@@ -35,9 +50,16 @@ button {
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 20px;
-    background-color: rgb(50, 3, 95);
+    background-color: rgb(75, 9, 136);
     color: white;
     cursor: pointer;
+}
+button:hover {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 110px;
+    transition: 0.5s;
 }
 .error-text {
     margin-left: 20px;
